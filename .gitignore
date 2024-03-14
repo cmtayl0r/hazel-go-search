@@ -1,6 +1,9 @@
 # Ignore node_modules directory
 node_modules/
 
+# Ignore parcel files
+.parcel-cache/
+
 # Ignore build artifacts
 dist/
 build/
@@ -28,7 +31,3 @@ coverage/
 *.js
 *.d.ts
 *.map
-
-# Ignore parcel files
-.parcel-cache/
-dist/
