@@ -28,3 +28,7 @@ coverage/
 *.js
 *.d.ts
 *.map
+
+# Ignore parcel files
+.parcel-cache/
+dist/
