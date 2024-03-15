@@ -7,21 +7,36 @@
         <script src="scripts/index.js" type="module"></script>
         <style>
             body {
-                font-family: Arial, sans-serif;
-                text-align: center;
-            }
-            h1 {
-                margin-top: 50px;
+                margin: 0;
+                overflow: hidden;
             }
             .hidden {
-                display: none;
+                display: none !important;
+            }
+            canvas {
+                overflow: hidden;
+            }
+            .winner {
+                display: flex;
+                justify-content: ;
+                align-items: center;
+                position: absolute;
+                z-index: 1000;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
         </style>
     </head>
     <body>
-        <h1>🐶 Hazel Go Search</h1>
+        <!-- <h1>🐶 Hazel Go Search</h1> -->
         <div class="winner hidden">
             <h2>Winner!</h2>
+            <p>You have won 🐶 Hazel Go Search! 👏</p>
         </div>
     </body>
 </html>
